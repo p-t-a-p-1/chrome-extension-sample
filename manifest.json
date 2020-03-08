@@ -1,0 +1,25 @@
+{
+  "name": "Googleのホーム画面を表示する拡張",
+  "version": "1.0",
+  "description": "この拡張機能を利用することでGoogleのホーム画面を素早く表示することができます",
+  "browser_action": {
+    "default_icon": {
+      "16": "images/n_icon16.png",
+      "32": "images/n_icon32.png",
+      "48": "images/n_icon48.png",
+      "128": "images/n_icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/n_icon16.png",
+    "32": "images/n_icon32.png",
+    "48": "images/n_icon48.png",
+    "128": "images/n_icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2
+}
